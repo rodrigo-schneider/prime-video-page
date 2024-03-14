@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    font-family: "Roboto", sans-serif;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.nav-container li {
+    color: #AAAAAA;
+    font-size: 16px;
+    list-style: none;
+    display: inline;
+    padding: 0px 12px;
+    cursor: pointer;
+}
+
+.profile img {
+    width: 30px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.search-icon {
+    filter: invert(80%);
+}
+
+.container-section {
+    padding: 70px;   
+    background-image: url(./img/the-equalizer.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container-section h1 {
+    margin-bottom: 30px;
+    color: #FFFFFF;
+    font-size: 36px;
+}
+
+.movie-description {
+    width: 60%;
+    margin-bottom: 2ch;
+    color: #FFFFFF;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.movie-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #999999;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.movie-details span {
+    margin-right: 10px;
+}
+
+.movie-details .x-ray {
+    background-color: #4f5358;
+    color: #FFFFFF;
+    padding: 2px 6px;
+    margin-right: 5px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+.movie-details .age {
+    background-color: red;
+    color: #FFFFFF;
+    font-size: 10px;
+    padding: 2px;
+    align-content: center;
+    border: 1px solid #fff;
+}
+
+.movie-type li {
+    display: inline;
+    color: #FFFFFF;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.movie-type .type {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.subscribe-content {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.subscribe-content p {
+    width: 60%;
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+
+.subscribe-content img {
+    width: 20px;
+}
+
+.reaction-btn img {
+    width: 30px;
+}
+
+.btn-container button {
+    margin-right: 7px;
+    padding: 8px 18px;
+    background-color: #FFFFFF33;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    border-style: none;   
+    border-radius: 5px;  
+    vertical-align: middle;
+    text-align: left;
+    cursor: pointer;
+}
+
+#main-btn {
+    background-color:#FFFFFF;
+    color: #00050D;
+    cursor: pointer;
+}
+
+.reaction-btn button {
+    margin: 25px 10px 10px 0px;
+    padding: 15px;
+    border-style: none;
+    background-color: #ebe7e799;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.discount-text {
+    margin: 5px 0px;
+    color: #999999;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.related-movies {
+    margin-top: 70px;
+}
+
+.related-movies h2 {
+    margin-bottom: 60px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.related-movies h3 {
+    margin-left: 35px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.film-cover {
+    display: flex;
+    justify-content: space-around;
+}
+
+.film-cover img {  
+    width: 250px;
+    height: 150px;
+    margin: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 60px;
+    padding: 5px 20px;
+}
+
+footer img {
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.footer-content li {
+    display: inline;
+    margin-right: 15px;
+    color: #78B8F3;
+    cursor: pointer;
+}
+
+.footer-content p {
+    color: #8197A4;
+}
+
+@media (max-width: 1090px) {
+    
+    .header-container {
+        width: 80%;       
+    }
+
+    .btn-container button {
+        margin-top: 10px;
+    }
+
+    .film-cover {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 820px) {
+    
+    .header-container {
+        width: 100%;
+        padding: 15px;       
+    }
+
+    .profile {
+        display: flex;
+    }
+
+    .footer-content li {
+        display: flex;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .header-container {
+        width: 80%;
+        padding: 15px;       
+    }
+    
+    .nav-container li {
+        display: flex;
+        padding: 2px;
+    }
+}
+
+
+
+
